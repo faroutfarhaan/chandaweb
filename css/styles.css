@@ -49,9 +49,9 @@ h2{
   .parent * {
     padding: 10px;
   }
-.footimg{
+.footImg{
    
-    background-image: url('footerimg.jpg');
+   
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.1); 
