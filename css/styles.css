@@ -1,0 +1,66 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+.container-fluid{
+    
+    /* background-color: #F1C376; */
+    /* background-color: #ABC4AA; */
+    /* background-color: #94A684; */
+    /* background-color: #FEFFAC; */
+    background-color: #FFB7B7;
+  
+}
+h1{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat-Bold',sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.navbar{
+  padding-top: 5px;
+  padding-bottom: 5px;
+    
+}
+.navbar-brand{
+    color: black;
+    padding: 0%;
+}
+.nav-item{
+    color: black;
+}
+.nav-links{
+    font-family: "Ubuntu",sans-serif;
+    font-size:larger;
+}
+#services{
+    background-color: #FEFFAC;
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .parent * {
+    padding: 10px;
+  }
+.footimg{
+   
+    background-image: url('footerimg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.1); 
+    
+    background-attachment: fixed;
+    transition: background-color 0.5s ease;
+  
+    font-size: 1rem;
+    /* font-family: 'Montserrat',sans-serif; */
+    font-weight: 400;
+
+}
