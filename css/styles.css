@@ -50,8 +50,8 @@ h2{
     padding: 10px;
   }
 .footImg{
-   
-   
+   padding: 5% ;
+   color: whitesmoke;
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.1); 
