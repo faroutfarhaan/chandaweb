@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chanda Consultants</title>
+   <!-- font awesome -->
+   <script src="https://kit.fontawesome.com/d2573c59d9.js" crossorigin="anonymous"></script>
  
   <!-- bootstrap -->
   <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
@@ -22,11 +24,15 @@
   <link rel="icon" type="image/png" sizes="16x16" href="chandaFavicon/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
    <!-- google font -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link
      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu&display=swap"
-     rel="stylesheet">
+     rel="stylesheet"> -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu&display=swap" rel="stylesheet">
+     
 
 </head>
 
@@ -35,8 +41,9 @@
     <!-- navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light  ">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="images/cc logo transperent-fotor-2023082901444.png" width="60px"
-            height=60px"></a>
+        <a class="navbar-brand" href="#"><img src="images/cc logoL1-fotor-20230902172934.png" width="80px"
+            height=80px"></a>
+            <div><p class="topText ">CHANDA <br> CONSULTANTS</p></div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -46,26 +53,15 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Services
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link disabled">Disabled</a>
@@ -120,9 +116,9 @@
   <!-- services section -->
   <section id="Services">
 
-    <div class="row" style="display:flex;align-items:flex-start;">
+    <div class="row service" style="display:flex;align-items:flex-start;">
       <h1>Our Services</h1>
-      <div class="col-lg-3  col-md-6 parent parent">
+      <div class="col-lg-3  col-md-6 parent ">
 
         <img src="images/trainingcartoon.jpg" width="80px" height="80px">
         <p>Training Programs on Process,Quality and Plant Operations</p>  
@@ -186,7 +182,8 @@
   </section>
   <!-- why us -->
   <section id="whyus">
-  <h1>Why Choose Us?</h1>
+  <h1 style="padding-left: 1rem;">Why Choose Us?</h1>
+  <div class="WUtxt">
   <p>At <strong> <em> Chanda Consultants</em></strong>, we're the premier choice for cement industry consulting, and here's why:
   </p>
   <ul>
@@ -220,6 +217,7 @@
     </li>
     
   </ul>
+</div>
   </section>
   <!-- testimonials -->
   <section id="testimonials">
@@ -227,33 +225,37 @@
   </section>
   <!-- footer -->
   <section id="footer">
-    <div class="row footImg" style="background-image: url(images/footerimg.jpg);">
+    <div class="row footImg" style="background-image: url(images/cemFact2.jpg);">
       <div class="col-lg-4">
-        <h1> Chanda </h1>
-        <br>
-        <h1>Consultants</h1>
-       </div>
+        <div>
+          <img src="images/cc_logoL1-removebg-preview.png" alt="chandalogo" width="50%" height="50%">
+        </div>
+       
+      </div>
      <div class="col-lg-4">
       <h3>Contact us</h3>
-     <ul>
-      <li>
-        Phone:8889203816
+     <ul >
+      <li class="contactDeatails">
+        Phone: +917000235764
       </li>
       <li>
         Email: info@chandaconsultants.com
       </li>
       <li>
-        Address: PNP complex,Vijapur Village Himatnagar Dist ahemdabad Gujarat(IND) 452002  
+       Office Address:G4, PNP complex Virpur Ta Himatnagar Dist Sabarkantha Gujarat(IND) 383010  
       </li>
      </ul>
      
      </div>
      <div class="col-lg-4">
-      <h3>Follow Us on:</h3>
-      <p>Facebook</p>
-      <p>LinkedIn</p>
-      <p>X(formerly Twitter)</p>
+      <h3>Follow Us</h3>
+      <a href="#"><i class="fa-brands fa-instagram fa-lg "></i><span> </span> Instagram</a><br>
+      <a href="#"><i class="fa-brands fa-facebook fa-lg"></i><span> </span>Facebook</a><br>
+     
+      <a href="#"><i class="fa-brands fa-twitter fa-lg"></i><span> </span>Twitter</a>
      </div>
+     <br>
+     <p class="copyright">copyright @ 2023  Chanda Consultants </p>
     </div>
     
   </section>
