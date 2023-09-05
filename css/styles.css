@@ -43,6 +43,7 @@ h2 {
 h3 {
     padding-top: 15px;
     padding-bottom: 7px;
+    
 }
 
 p {
@@ -141,10 +142,16 @@ p {
     font-weight: 200;
     font-size: smaller;
 }
+
 /* services page */
-.Certification{
-    padding-top: 0.5rem ;
-    padding-bottom: 0.5rem ;
+.Certification {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     padding-left: 1rem;
-    
+
+}
+#gnkImg{
+   width: 200px;
+   height: 250px;
+   padding-top: 5rem;
 }
