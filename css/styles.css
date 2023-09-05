@@ -29,9 +29,15 @@ h1 {
 }
 
 h2 {
-    font-family: 'Montserrat-Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2rem;
+    background: #F09819;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #EDDE5D, #fdb34c, #a7802c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #EDDE5D, #ffb854, #a17a25);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h3 {
@@ -134,4 +140,11 @@ p {
     text-align: right;
     font-weight: 200;
     font-size: smaller;
+}
+/* services page */
+.Certification{
+    padding-top: 0.5rem ;
+    padding-bottom: 0.5rem ;
+    padding-left: 1rem;
+    
 }
